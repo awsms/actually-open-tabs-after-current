@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Actually Open Tabs After Current",
+  "version": "0.1.0",
+  "description": "Opens new tabs directly after their opener.",
+  "permissions": [
+    "tabs"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "actually-open-tabs-after-current@awsms.github.io",
+      "strict_min_version": "109.0"
+    }
+  }
+}
